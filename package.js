@@ -12,8 +12,6 @@ Package.onUse(function(api) {
   api.use('ianng:leaflet-routing-machine@1.0.1', 'client');
   api.addFiles('ianng:Control.Geocoder.js', 'client');
   api.addFiles('ianng:Control.Geocoder.css', 'client');
-  api.addAssets('images/geocoder.png', 'client');
-  api.addAssets('images/throbber.gif', 'client');
 });
 
 
